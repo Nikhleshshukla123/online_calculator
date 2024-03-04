@@ -2,18 +2,6 @@ body {
     background-color: bisque;
 }
 
-@media screen and (min-width: 480px) {
-    body {
-        background-color:bisque;
-    }
-}
-
-@media screen and (max-width : 1000px) {
-    #main{
-        background-color: blueviolet;
-    }
-}
-
 @media screen and (max-width: 600px) {
             #uper1 button, #uper2 button {
                 flex: 1 0 45%; /* Adjust the width for smaller screens */
