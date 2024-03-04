@@ -1,0 +1,68 @@
+body {
+    background-color: bisque;
+}
+
+@media screen and (min-width: 480px) {
+    body {
+        background-color:bisque;
+    }
+}
+
+@media screen and (max-width : 1000px) {
+    #main{
+        background-color: blueviolet;
+    }
+}
+#main {
+    background-color: blue;
+    border-radius: 20px;
+    margin: 80px;
+    margin-left: 400px;
+    border: 5px groove blueviolet;
+    width: 500px;
+    height: 500px;
+    text-shadow: 30px;
+}
+
+#uper1,
+#uper2 {
+    height: 150px;
+    width: 500px;
+}
+
+#sum,
+#sub,
+#mul,
+#div,
+#mod,
+#squ,
+#avg,
+#rec {
+    font-size: xx-large;
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 15px
+}
+
+#geta,
+#getb {
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    border-color: yellow;
+    background-color: chartreuse;
+    height: 40px;
+    width: 80%;
+    border-radius: 30px;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h1{
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+}
