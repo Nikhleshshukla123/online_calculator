@@ -13,6 +13,12 @@ body {
         background-color: blueviolet;
     }
 }
+
+@media screen and (max-width: 600px) {
+            #uper1 button, #uper2 button {
+                flex: 1 0 45%; /* Adjust the width for smaller screens */
+            }
+        }
 #main {
     background-color: blue;
     border-radius: 20px;
